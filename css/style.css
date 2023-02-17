@@ -1,0 +1,121 @@
+/*-----------------google-font-------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@400;700&display=swap');
+/*-----------------google-font-------------- */
+body{
+max-width: 1224px;
+margin: 0 auto;
+border: 1px solid black;
+font-family: 'Work Sans', sans-serif;
+}
+header{
+background-color: rgba(255, 144, 14, 0.1);
+}
+/*  <!----------------nav-bar-End-----------------------------------------> */
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-title{
+font-weight: 700;
+font-size: 15px;
+color: #131313;
+margin-left: 30px;
+}
+.title-color{
+color: orangered;
+}
+.nav-home a{
+text-decoration: none;
+color: #131313;
+margin-right: 50px;
+}
+/*  <!----------------nav-bar-End-----------------------------------------> */
+/* --------------------Brand-Banner-title-and-img-start-------------------- */
+.brand-banner{
+text-align: center;
+color: #131313;
+margin-top: 100px;
+padding: 10px 200px 50px 200px;
+}
+.brand-title{
+font-weight: 700;
+font-size: 40px;
+margin-bottom: 0.5px;
+}
+.brand-discription{
+padding: 17px 98px;
+margin: 0px 10px;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #727272;
+}
+.primary-btn{
+font-weight: 600;
+font-size: 14px;
+padding: 12px 30px;
+border: none;
+border-radius: 8px;
+color: #ffff;
+background-color: #FF900E;
+}
+.primary-btn:hover{
+background-color: lightgreen;
+color: #131313;
+}
+.brand-banner-img img{
+width: 81%;
+margin: 0px 88px  45px 108px ;
+padding: 10px 10px  10px 10px ;
+}
+/* --------------------Brand-Banner-title-and-img-End-------------------- */
+/*---features-img--- */
+.features-title-and-img{
+display: grid;
+grid-template-columns:repeat(2,1fr) ;
+gap: 90px;
+margin: 60px 120px 60px 120px;
+}
+.features-img{
+display: flex;
+align-items: center;   
+}
+.features-img img{
+width: 93%;
+margin: -3px 10px 0px 0px;
+padding: 10px 10px;
+border-radius: 16px;
+}
+/* -features-title- */
+.features-title{
+margin: 100px 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+}
+.features-title-h2-tag{
+margin: 10px 176px 10px 0px;
+padding: 10px 10px 10px 10px;  
+}
+.features-title-1{
+color:#727272 ;
+font-weight: 200;
+font-size: 22px;
+}
+.features-title-2{
+color:#131313 ;
+font-weight: 900;
+font-size: 28px;
+}
+
+.features-title-3{
+color: #FF900E;
+font-weight: 700;
+font-size: 28px;
+}
+.features-description{
+margin-right: 83px;   
+font-weight: 200;
+font-size: 12px;
+line-height: 17px;
+color: #727272;
+}
